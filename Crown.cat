@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="4724-2577-5b2d-0bfe" name="Crown v3.02" revision="4" battleScribeVersion="2.03" authorName="Riccardo Sipone, TrikkStar" authorContact="siponeric@hotmail.com" library="false" gameSystemId="1242-c30b-419f-8229" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="4724-2577-5b2d-0bfe" name="Crown v3.03" revision="5" battleScribeVersion="2.03" authorName="Riccardo Sipone, TrikkStar" authorContact="siponeric@hotmail.com" library="false" gameSystemId="1242-c30b-419f-8229" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>Review 1.02.a0: Initial release
 Review 1.02.a1: minor point correction
 Review 3.02.00: update to ORBAT 3.02a
 Review 4 - Minor corrections and updates
-</readme>
+Review 5: update to ORBAT 3.03</readme>
   <categoryEntries>
     <categoryEntry id="6427-c580-219d-c874" name="Britannia Class" publicationId="dbca-8d57-b848-457e" hidden="false"/>
     <categoryEntry id="ddb5-f0d6-665c-3ac4" name="Protecteur Class" publicationId="dbca-8d57-b848-457e" hidden="false"/>
@@ -54,6 +54,10 @@ Review 4 - Minor corrections and updates
     <categoryEntry id="b20c-c6ec-bdc4-faed" name="EITC" publicationId="dbca-8d57-b848-457e" hidden="false"/>
     <categoryEntry id="c669-858c-a462-1c6c" name="Grand Indiaman" publicationId="dbca-8d57-b848-457e" hidden="false"/>
     <categoryEntry id="d384-c76d-f387-5327" name="Adventurer Class" publicationId="dbca-8d57-b848-457e" hidden="false"/>
+    <categoryEntry id="5ff2-dbb6-8bd2-a160" name="Fast Destroyer" hidden="false"/>
+    <categoryEntry id="5098-82a2-6f80-b36a" name="Grail Class" hidden="false"/>
+    <categoryEntry id="eaca-b02c-43a7-0b54" name="Strike Submarine" hidden="false"/>
+    <categoryEntry id="6c4d-9a88-9e9d-ed5f" name="Guinevere Class" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="012e-2bdb-8192-e8ca" name="Crown Faction Battlefleet" publicationId="dbca-8d57-b848-457e" hidden="false">
@@ -211,6 +215,16 @@ Review 4 - Minor corrections and updates
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2515-831a-540f-98cc" type="max"/>
           </constraints>
         </categoryLink>
+        <categoryLink id="3897-b620-1f4b-9b65" name="Grail Class" hidden="false" targetId="5098-82a2-6f80-b36a" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a5a-4aa0-1a43-c60e" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="36ca-a586-8210-732b" name="Guinevere Class" hidden="false" targetId="6c4d-9a88-9e9d-ed5f" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="715c-b18b-7614-59b5" type="max"/>
+          </constraints>
+        </categoryLink>
       </categoryLinks>
     </forceEntry>
     <forceEntry id="7b54-608f-353d-8628" name="British Frontline Battlefleet" publicationId="dbca-8d57-b848-457e" hidden="false">
@@ -300,6 +314,16 @@ Review 4 - Minor corrections and updates
         <categoryLink id="7130-a822-c06d-fbd4" name="Tintagel Class" hidden="false" targetId="c8fb-856e-ddff-0c9f" primary="false">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2515-831a-540f-98cc" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="b142-d5b5-85ea-ce9f" name="Grail Class" hidden="false" targetId="5098-82a2-6f80-b36a" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="915a-fb22-229c-9da6" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="8021-ccc3-ab27-851b" name="Guinevere Class" hidden="false" targetId="6c4d-9a88-9e9d-ed5f" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b12-4e7d-bd05-05f5" type="max"/>
           </constraints>
         </categoryLink>
       </categoryLinks>
@@ -399,6 +423,16 @@ Review 4 - Minor corrections and updates
         <categoryLink id="7130-a822-c06d-fbd4" name="Tintagel Class" hidden="false" targetId="c8fb-856e-ddff-0c9f" primary="false">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2515-831a-540f-98cc" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="a8c7-4d2e-0096-eb74" name="Grail Class" hidden="false" targetId="5098-82a2-6f80-b36a" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fdb5-d62c-88db-a9ff" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="4261-dd76-f515-da27" name="Guinevere Class" hidden="false" targetId="6c4d-9a88-9e9d-ed5f" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="260d-2463-c702-c7c7" type="max"/>
           </constraints>
         </categoryLink>
       </categoryLinks>
@@ -526,7 +560,7 @@ Review 4 - Minor corrections and updates
         </categoryLink>
         <categoryLink id="c094-2be6-28fc-c9f4" name="Orca Class" hidden="false" targetId="67f5-80e9-aef2-3097" primary="false">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8504-84f1-3f97-0fba" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8504-84f1-3f97-0fba" type="max"/>
           </constraints>
         </categoryLink>
         <categoryLink id="b6e3-595c-a794-4030" name="Saxon Class" hidden="false" targetId="1e20-4e31-f760-52ca" primary="false">
@@ -542,6 +576,11 @@ Review 4 - Minor corrections and updates
         <categoryLink id="7ea0-5d5f-f818-95ac" name="British" hidden="false" targetId="fffb-149d-6db1-4439" primary="false">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2925-4b26-ea01-6721" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="8cb6-a142-5ea5-acf5" name="Grail Class" hidden="false" targetId="5098-82a2-6f80-b36a" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2fa9-eece-10ed-e7ff" type="max"/>
           </constraints>
         </categoryLink>
       </categoryLinks>
@@ -575,12 +614,12 @@ Review 4 - Minor corrections and updates
         <categoryLink id="d130-3d44-74a5-7e94" name="Surface Unit" hidden="false" targetId="464e-890a-84b2-8ce9" primary="false">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4ea4-772e-adde-6ca2" type="max"/>
-            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c4da-a2bb-62fa-85a8" type="max"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c4da-a2bb-62fa-85a8" type="max"/>
           </constraints>
         </categoryLink>
         <categoryLink id="b38a-11b6-6cc0-b434" name="Aerial Unit" hidden="false" targetId="022b-08af-c874-e3f1" primary="false">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d914-d1b5-e6e8-7527" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d914-d1b5-e6e8-7527" type="max"/>
           </constraints>
         </categoryLink>
         <categoryLink id="486d-1252-60ec-9d8c" name="Agincourt Class" hidden="false" targetId="eedb-3308-3474-4f3b" primary="false">
@@ -651,6 +690,16 @@ Review 4 - Minor corrections and updates
         <categoryLink id="7130-a822-c06d-fbd4" name="Tintagel Class" hidden="false" targetId="c8fb-856e-ddff-0c9f" primary="false">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2515-831a-540f-98cc" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="d7cf-264f-9c5e-da85" name="Grail Class" hidden="false" targetId="5098-82a2-6f80-b36a" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="105b-28b4-431b-5ad4" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="3faa-18b6-1c1c-54eb" name="Guinevere Class" hidden="false" targetId="6c4d-9a88-9e9d-ed5f" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f4a0-e3c7-38fd-e12e" type="max"/>
           </constraints>
         </categoryLink>
       </categoryLinks>
@@ -1182,6 +1231,9 @@ Review 4 - Minor corrections and updates
           </conditionGroups>
         </modifier>
       </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6a77-5e82-1951-ea43" type="max"/>
+      </constraints>
       <categoryLinks>
         <categoryLink id="3c90-9021-4dd5-9bc5" name="New CategoryLink" hidden="false" targetId="fef3-1842-580c-4bef" primary="true"/>
         <categoryLink id="2d12-b974-6c3e-62c1" name="Victory Class" hidden="false" targetId="3c0e-3931-32d5-b795" primary="false"/>
@@ -1305,10 +1357,6 @@ Review 4 - Minor corrections and updates
           </constraints>
           <entryLinks>
             <entryLink id="0618-e37d-4e91-0981" name="Escort Token" hidden="false" collective="false" import="true" targetId="9cc1-48f6-f9ea-943f" type="selectionEntry">
-              <constraints>
-                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="66b3-df2f-9344-eef8" type="min"/>
-                <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="10c7-040e-25bf-2cb7" type="max"/>
-              </constraints>
               <categoryLinks>
                 <categoryLink id="6e0a-2b2c-9351-0169" name="Escort Class" hidden="false" targetId="a8dc-2c16-e614-7894" primary="false"/>
               </categoryLinks>
@@ -1999,10 +2047,6 @@ Review 4 - Minor corrections and updates
           </constraints>
           <entryLinks>
             <entryLink id="77b0-a760-858b-e7f6" name="Escort Token" hidden="false" collective="false" import="true" targetId="9cc1-48f6-f9ea-943f" type="selectionEntry">
-              <constraints>
-                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="142b-6f92-ef89-7a94" type="min"/>
-                <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="14dd-746a-2b4a-0f88" type="max"/>
-              </constraints>
               <categoryLinks>
                 <categoryLink id="bcbf-e161-db1c-b7dc" name="Escort Class" hidden="false" targetId="a8dc-2c16-e614-7894" primary="false"/>
               </categoryLinks>
@@ -2336,7 +2380,7 @@ Review 4 - Minor corrections and updates
         <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f03b-a088-5e4a-2acd" name="Belfast OffshoreSupport Platforms" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="f03b-a088-5e4a-2acd" name="Belfast Offshore Support Platforms" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditionGroups>
@@ -2474,6 +2518,441 @@ Review 4 - Minor corrections and updates
       <costs>
         <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="0.0"/>
       </costs>
+    </selectionEntry>
+    <selectionEntry id="a5f2-313c-54ef-e5c7" name="HMS Indefatigable" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="655a-768e-4dd7-479e" type="instanceOf"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f771-8c4b-877d-735f" type="instanceOf"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="74f8-a93e-d127-d4f7" type="instanceOf"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8dbd-7b09-f7db-0eba" type="instanceOf"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f522-023c-74a9-5412" type="instanceOf"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6a60-6394-6533-5a78" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="edd5-056d-4e8a-b7d1" name="Flagship" hidden="false" targetId="fef3-1842-580c-4bef" primary="true"/>
+        <categoryLink id="b055-91b3-f84e-37c9" name="Britannia Class" hidden="false" targetId="6427-c580-219d-c874" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="3ac9-0471-cc63-8c3b" name="Attached Unit" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="05b6-6eb7-596f-c6ac" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="f932-3c42-530b-71c5" name="Hotspur Support Carrier Squadron" hidden="false" collective="false" import="true" type="unit">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d114-83da-62c9-e92e" type="max"/>
+              </constraints>
+              <categoryLinks>
+                <categoryLink id="99b8-912f-4889-0df4" name="New CategoryLink" hidden="false" targetId="d216-bc05-71f1-0fb4" primary="true"/>
+                <categoryLink id="fa09-9678-0f06-b7ff" name="Hotspur Class" hidden="false" targetId="a683-0b8f-09f3-7880" primary="false"/>
+              </categoryLinks>
+              <entryLinks>
+                <entryLink id="64c0-e95f-71ad-fffd" name="Hotspur" hidden="false" collective="false" import="true" targetId="fd72-a8a0-a24d-349e" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="37b2-91c6-039a-df19" value="1.0"/>
+                  </modifiers>
+                </entryLink>
+              </entryLinks>
+              <costs>
+                <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="88c1-8c18-5575-268d" name="Athelstan Flak Cruiser Squadron" hidden="false" collective="false" import="true" type="unit">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6557-1fa0-4f77-2373" type="max"/>
+              </constraints>
+              <categoryLinks>
+                <categoryLink id="218a-63bf-5338-551b" name="Athelstan Class" hidden="false" targetId="a4c7-ed2c-6f9a-1a54" primary="false"/>
+                <categoryLink id="1fb8-c1d8-a3f4-a576" name="Surface Unit" hidden="false" targetId="464e-890a-84b2-8ce9" primary="true"/>
+              </categoryLinks>
+              <entryLinks>
+                <entryLink id="9689-c21a-684c-3fdc" name="Athelstan" hidden="false" collective="false" import="true" targetId="dcca-9848-0265-fdcb" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="53e7-91f3-1620-ab04" value="1.0"/>
+                  </modifiers>
+                </entryLink>
+              </entryLinks>
+              <costs>
+                <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="3861-c493-ea46-9400" name="Albion Cruiser Squadron" hidden="false" collective="false" import="true" type="unit">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="80e2-89f8-c754-7edf" type="max"/>
+              </constraints>
+              <categoryLinks>
+                <categoryLink id="1f11-7861-8929-a38a" name="Albion Class" hidden="false" targetId="b6a5-4bf0-cc7d-cef0" primary="false"/>
+                <categoryLink id="88d3-9f6c-407e-0dba" name="New CategoryLink" hidden="false" targetId="464e-890a-84b2-8ce9" primary="true"/>
+              </categoryLinks>
+              <entryLinks>
+                <entryLink id="1b4f-2b02-7b4a-66b0" name="Albion" hidden="false" collective="false" import="true" targetId="3391-de44-4f50-9776" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="e3bb-7676-dcf0-db3b" value="1.0"/>
+                  </modifiers>
+                </entryLink>
+              </entryLinks>
+              <costs>
+                <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="b286-a52f-0825-452b" name="HMS Indefatigable" hidden="false" collective="false" import="true" targetId="a564-1d94-bf1c-3ab6" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0621-a1ee-1f5b-a7aa" name="HMS Phaeton" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="655a-768e-4dd7-479e" type="instanceOf"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f771-8c4b-877d-735f" type="instanceOf"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="74f8-a93e-d127-d4f7" type="instanceOf"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8dbd-7b09-f7db-0eba" type="instanceOf"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f522-023c-74a9-5412" type="instanceOf"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7931-efc8-3f9c-4e1f" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="a8be-97f4-8540-b7b7" name="Flagship" hidden="false" targetId="fef3-1842-580c-4bef" primary="true"/>
+        <categoryLink id="a946-656c-f4f0-e733" name="Britannia Class" hidden="false" targetId="6427-c580-219d-c874" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="39c2-f0d8-bd3b-2968" name="Escort Model" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5e79-f0aa-81b3-7194" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="3f2a-4171-e3b2-a1fa" name="Escort Token" hidden="false" collective="false" import="true" targetId="9cc1-48f6-f9ea-943f" type="selectionEntry">
+              <categoryLinks>
+                <categoryLink id="26c6-4085-9311-31cd" name="Escort Class" hidden="false" targetId="a8dc-2c16-e614-7894" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="8.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="560f-42cb-4471-74e0" name="Attached Unit" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec27-e1b4-5583-6a12" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="ca0e-6408-22af-f4e8" name="Hotspur Support Carrier Squadron" hidden="false" collective="false" import="true" type="unit">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9112-d21d-2784-c6b9" type="max"/>
+              </constraints>
+              <categoryLinks>
+                <categoryLink id="5222-694a-085f-dd6b" name="New CategoryLink" hidden="false" targetId="d216-bc05-71f1-0fb4" primary="true"/>
+                <categoryLink id="009e-ec65-b596-ab1f" name="Hotspur Class" hidden="false" targetId="a683-0b8f-09f3-7880" primary="false"/>
+              </categoryLinks>
+              <entryLinks>
+                <entryLink id="26d6-d62c-7700-1010" name="Hotspur" hidden="false" collective="false" import="true" targetId="fd72-a8a0-a24d-349e" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="37b2-91c6-039a-df19" value="1.0"/>
+                  </modifiers>
+                </entryLink>
+              </entryLinks>
+              <costs>
+                <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="6b6a-8208-9bbd-0bb6" name="Athelstan Flak Cruiser Squadron" hidden="false" collective="false" import="true" type="unit">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="07ba-565a-6dd0-ef7d" type="max"/>
+              </constraints>
+              <categoryLinks>
+                <categoryLink id="befa-7b20-0bcd-8f4a" name="Athelstan Class" hidden="false" targetId="a4c7-ed2c-6f9a-1a54" primary="false"/>
+                <categoryLink id="35b4-24dc-58e6-0202" name="Surface Unit" hidden="false" targetId="464e-890a-84b2-8ce9" primary="true"/>
+              </categoryLinks>
+              <entryLinks>
+                <entryLink id="a042-8012-3d15-c94c" name="Athelstan" hidden="false" collective="false" import="true" targetId="dcca-9848-0265-fdcb" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="53e7-91f3-1620-ab04" value="1.0"/>
+                  </modifiers>
+                </entryLink>
+              </entryLinks>
+              <costs>
+                <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="a71a-b26d-a871-eb6c" name="Albion Cruiser Squadron" hidden="false" collective="false" import="true" type="unit">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8726-a4b6-edfb-9f42" type="max"/>
+              </constraints>
+              <categoryLinks>
+                <categoryLink id="ed7a-a211-0fc5-88ca" name="Albion Class" hidden="false" targetId="b6a5-4bf0-cc7d-cef0" primary="false"/>
+                <categoryLink id="cef4-a5e3-0058-46ca" name="New CategoryLink" hidden="false" targetId="464e-890a-84b2-8ce9" primary="true"/>
+              </categoryLinks>
+              <entryLinks>
+                <entryLink id="9f30-2077-f029-c842" name="Albion" hidden="false" collective="false" import="true" targetId="3391-de44-4f50-9776" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="e3bb-7676-dcf0-db3b" value="1.0"/>
+                  </modifiers>
+                </entryLink>
+              </entryLinks>
+              <costs>
+                <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="4e14-4b69-c1a5-cce4" name="HMS Phaeton" hidden="false" collective="false" import="true" targetId="3b91-1d21-f9e2-8bf8" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4a98-337e-320d-96cf" name="HMCS Saskatchewan" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="74f8-a93e-d127-d4f7" type="instanceOf"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7b54-608f-353d-8628" type="instanceOf"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="655a-768e-4dd7-479e" type="instanceOf"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8dbd-7b09-f7db-0eba" type="instanceOf"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f522-023c-74a9-5412" type="instanceOf"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7a54-be95-b964-e08b" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="8243-f46d-460f-ed15" name="New CategoryLink" hidden="false" targetId="fef3-1842-580c-4bef" primary="true"/>
+        <categoryLink id="e6e1-3dc6-00cf-ec84" name="Protecteur Class" hidden="false" targetId="ddb5-f0d6-665c-3ac4" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="8034-5a2c-6724-fb4b" name="Attached Unit" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7c71-d079-509b-c55c" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="812e-12f4-826e-8873" name="Orca Hunter Submarines Squadron" hidden="false" collective="false" import="true" type="unit">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f5f0-9986-5a09-3ff3" type="max"/>
+              </constraints>
+              <categoryLinks>
+                <categoryLink id="244f-297c-59db-5fe1" name="Orca Class" hidden="false" targetId="67f5-80e9-aef2-3097" primary="false"/>
+                <categoryLink id="38a7-e370-f659-1e72" name="New CategoryLink" hidden="false" targetId="df3f-7b38-7940-f11e" primary="true"/>
+              </categoryLinks>
+              <entryLinks>
+                <entryLink id="2a99-d182-3240-6317" name="Orca" hidden="false" collective="false" import="true" targetId="9bdd-872b-dbfb-4a53" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="b57b-42bb-1c6b-6067" value="2.0"/>
+                  </modifiers>
+                </entryLink>
+              </entryLinks>
+              <costs>
+                <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="50b5-c29f-cc98-98ab" name="Halifax Shield Cruiser" hidden="false" collective="false" import="true" type="unit">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b487-fc0c-58db-510e" type="max"/>
+              </constraints>
+              <categoryLinks>
+                <categoryLink id="1e3d-be3a-b66b-d2e0" name="Halifax Class" hidden="false" targetId="b0b9-9e5b-dd34-c930" primary="false"/>
+                <categoryLink id="9f9e-667c-2822-f0dc" name="Surface Unit" hidden="false" targetId="464e-890a-84b2-8ce9" primary="true"/>
+              </categoryLinks>
+              <entryLinks>
+                <entryLink id="2710-915d-33d9-855d" name="Halifax" hidden="false" collective="false" import="true" targetId="943e-b81d-2fd2-b2af" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="4299-2f21-13f3-bdc6" value="1.0"/>
+                  </modifiers>
+                </entryLink>
+              </entryLinks>
+              <costs>
+                <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="3b69-92bf-6437-6692" name="HMCS Saskatchewan" hidden="false" collective="false" import="true" targetId="4d6f-e9e3-c052-c256" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9532-7169-de74-60f2" name="HMCS Tilloch Galt" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="655a-768e-4dd7-479e" type="instanceOf"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7b54-608f-353d-8628" type="instanceOf"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8dbd-7b09-f7db-0eba" type="instanceOf"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f522-023c-74a9-5412" type="instanceOf"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1987-14f1-2273-3218" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="9064-6dbd-f5e9-67a2" name="New CategoryLink" hidden="false" targetId="fef3-1842-580c-4bef" primary="true"/>
+        <categoryLink id="091e-b6e2-cd60-423f" name="Gloriana Class" hidden="false" targetId="0867-653c-99f4-e50a" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="9db1-af8e-769a-9f14" name="Escort Model" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cbe7-bb84-58c2-edcc" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="1191-41a6-26c5-9149" name="Escort Token" hidden="false" collective="false" import="true" targetId="9cc1-48f6-f9ea-943f" type="selectionEntry">
+              <categoryLinks>
+                <categoryLink id="186f-926d-5eb7-24bf" name="Escort Class" hidden="false" targetId="a8dc-2c16-e614-7894" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="8.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="09e4-05fa-df51-b76f" name="Attached Unit" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec3e-8d52-a562-2231" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="b0bf-dd7f-58f2-b0a1" name="Hotspur Support Carrier Squadron" hidden="false" collective="false" import="true" type="unit">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="81f0-5e23-84f4-7c3e" type="max"/>
+              </constraints>
+              <categoryLinks>
+                <categoryLink id="f2b4-490c-34f5-7587" name="New CategoryLink" hidden="false" targetId="d216-bc05-71f1-0fb4" primary="true"/>
+                <categoryLink id="12f1-6aac-169c-0d5f" name="Hotspur Class" hidden="false" targetId="a683-0b8f-09f3-7880" primary="false"/>
+              </categoryLinks>
+              <entryLinks>
+                <entryLink id="b420-c523-f958-52c5" name="Hotspur" hidden="false" collective="false" import="true" targetId="fd72-a8a0-a24d-349e" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="37b2-91c6-039a-df19" value="1.0"/>
+                  </modifiers>
+                </entryLink>
+              </entryLinks>
+              <costs>
+                <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="8178-de5f-b909-adeb" name="Athelstan Flak Cruiser Squadron" hidden="false" collective="false" import="true" type="unit">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1275-b67e-e9e0-e4a6" type="max"/>
+              </constraints>
+              <categoryLinks>
+                <categoryLink id="05d3-93cd-5f7b-f4ba" name="Athelstan Class" hidden="false" targetId="a4c7-ed2c-6f9a-1a54" primary="false"/>
+                <categoryLink id="1cc5-de7c-504a-71b6" name="Surface Unit" hidden="false" targetId="464e-890a-84b2-8ce9" primary="true"/>
+              </categoryLinks>
+              <entryLinks>
+                <entryLink id="7c70-e479-0c8e-4d43" name="Athelstan" hidden="false" collective="false" import="true" targetId="dcca-9848-0265-fdcb" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="53e7-91f3-1620-ab04" value="1.0"/>
+                  </modifiers>
+                </entryLink>
+              </entryLinks>
+              <costs>
+                <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="d50c-57c0-35ec-4d1b" name="Albion Cruiser Squadron" hidden="false" collective="false" import="true" type="unit">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7c3b-cb0d-0e34-70ad" type="max"/>
+              </constraints>
+              <categoryLinks>
+                <categoryLink id="3a06-0ca9-c958-5cf8" name="Albion Class" hidden="false" targetId="b6a5-4bf0-cc7d-cef0" primary="false"/>
+                <categoryLink id="ef46-8924-0c91-b6ad" name="New CategoryLink" hidden="false" targetId="464e-890a-84b2-8ce9" primary="true"/>
+              </categoryLinks>
+              <entryLinks>
+                <entryLink id="8f82-7269-aac8-7c2b" name="Albion" hidden="false" collective="false" import="true" targetId="3391-de44-4f50-9776" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="e3bb-7676-dcf0-db3b" value="1.0"/>
+                  </modifiers>
+                </entryLink>
+              </entryLinks>
+              <costs>
+                <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="81c1-2f23-c1a1-c239" name="HMCS Tilloch Galt" hidden="false" collective="false" import="true" targetId="3bab-c846-bf7e-ac8b" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5912-711b-c3b7-c99f" name="Grail Fast Destroyer" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="655a-768e-4dd7-479e" type="instanceOf"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="1b3b-ace7-a8fc-e36d" name="New CategoryLink" hidden="false" targetId="464e-890a-84b2-8ce9" primary="true"/>
+        <categoryLink id="d7a3-75fd-ee61-e45d" name="British" hidden="false" targetId="fffb-149d-6db1-4439" primary="false"/>
+        <categoryLink id="5587-8296-2170-a86d" name="Grail Class" hidden="false" targetId="5098-82a2-6f80-b36a" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="7dd0-f97c-7087-b05e" name="Grail" hidden="false" collective="false" import="true" targetId="8ad0-2f74-2bf1-35ea" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry id="5798-49e7-bdf3-a679" name="Guinevere Strike Submarine" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f771-8c4b-877d-735f" type="instanceOf"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="3c70-3281-89f0-851e" name="New CategoryLink" hidden="false" targetId="df3f-7b38-7940-f11e" primary="true"/>
+        <categoryLink id="adc7-eb09-d6a4-6a71" name="Guinevere Class" hidden="false" targetId="6c4d-9a88-9e9d-ed5f" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="d574-ddeb-efaa-a73f" name="Guinevere" hidden="false" collective="false" import="true" targetId="94b8-bb98-431a-69be" type="selectionEntry"/>
+      </entryLinks>
     </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
@@ -2710,6 +3189,17 @@ Review 4 - Minor corrections and updates
                   <modifiers>
                     <modifier type="add" field="category" value="db84-bb03-d026-c3a5"/>
                   </modifiers>
+                  <costs>
+                    <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="3.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="ddc4-f9de-3bef-c548" name="Majestic Gun Battery" hidden="false" collective="false" import="true" targetId="50a4-cca5-44e5-2595" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="add" field="category" value="db84-bb03-d026-c3a5"/>
+                  </modifiers>
+                  <costs>
+                    <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="3.0"/>
+                  </costs>
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
@@ -2735,11 +3225,22 @@ Review 4 - Minor corrections and updates
                   <modifiers>
                     <modifier type="add" field="category" value="f2af-2773-24ff-2e12"/>
                   </modifiers>
+                  <costs>
+                    <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="3.0"/>
+                  </costs>
                 </entryLink>
                 <entryLink id="f2cd-197d-0c10-6c35" name="Heavy Rocket Battery" hidden="false" collective="false" import="true" targetId="65b3-d9a8-e0a3-a028" type="selectionEntry">
                   <modifiers>
                     <modifier type="add" field="category" value="f2af-2773-24ff-2e12"/>
                   </modifiers>
+                </entryLink>
+                <entryLink id="04bb-28ef-d417-2674" name="Majestic Gun Battery" hidden="false" collective="false" import="true" targetId="50a4-cca5-44e5-2595" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="add" field="category" value="f2af-2773-24ff-2e12"/>
+                  </modifiers>
+                  <costs>
+                    <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="3.0"/>
+                  </costs>
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
@@ -2942,6 +3443,7 @@ Review 4 - Minor corrections and updates
         <infoLink id="a79f-7bc3-36e6-cc49" name="Loyal She Began; Thus She Remains" hidden="false" targetId="4e23-608b-4365-8b65" type="rule"/>
         <infoLink id="0d7d-3887-1367-6721" name="Lionhearted Crew" hidden="false" targetId="20dc-3eb1-0ca3-5a54" type="rule"/>
         <infoLink id="68e8-7a69-c559-96e3" name="Royal Engineers" hidden="false" targetId="563e-1c6c-a525-6552" type="rule"/>
+        <infoLink id="44df-ea8d-db48-ca28" name="Vulnerable Stern" hidden="false" targetId="de5d-516f-4490-71dd" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="d76a-82fe-d57a-b51c" name="Bonaventure Class" hidden="false" targetId="6e57-abee-d1b8-c2e0" primary="false"/>
@@ -3197,7 +3699,15 @@ Review 4 - Minor corrections and updates
                     <modifier type="add" field="category" value="db84-bb03-d026-c3a5"/>
                   </modifiers>
                   <costs>
-                    <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="3.0"/>
+                    <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="5.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="f9d7-a383-5ec0-dea8" name="Majestic Gun Battery" hidden="false" collective="false" import="true" targetId="50a4-cca5-44e5-2595" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="add" field="category" value="db84-bb03-d026-c3a5"/>
+                  </modifiers>
+                  <costs>
+                    <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="5.0"/>
                   </costs>
                 </entryLink>
               </entryLinks>
@@ -3225,7 +3735,7 @@ Review 4 - Minor corrections and updates
                     <modifier type="add" field="category" value="f2af-2773-24ff-2e12"/>
                   </modifiers>
                   <costs>
-                    <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="3.0"/>
+                    <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="5.0"/>
                   </costs>
                 </entryLink>
                 <entryLink id="57bf-1080-6b25-cf5a" name="Heavy Rocket Battery" hidden="false" collective="false" import="true" targetId="65b3-d9a8-e0a3-a028" type="selectionEntry">
@@ -3234,6 +3744,14 @@ Review 4 - Minor corrections and updates
                   </modifiers>
                   <costs>
                     <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="3.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="22b8-23ab-7403-cf75" name="Majestic Gun Battery" hidden="false" collective="false" import="true" targetId="50a4-cca5-44e5-2595" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="add" field="category" value="f2af-2773-24ff-2e12"/>
+                  </modifiers>
+                  <costs>
+                    <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="5.0"/>
                   </costs>
                 </entryLink>
               </entryLinks>
@@ -3331,7 +3849,15 @@ Review 4 - Minor corrections and updates
                     <modifier type="add" field="category" value="db84-bb03-d026-c3a5"/>
                   </modifiers>
                   <costs>
-                    <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="3.0"/>
+                    <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="5.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="8dae-bcfa-0bec-1f38" name="Majestic Gun Battery" hidden="false" collective="false" import="true" targetId="50a4-cca5-44e5-2595" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="add" field="category" value="db84-bb03-d026-c3a5"/>
+                  </modifiers>
+                  <costs>
+                    <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="5.0"/>
                   </costs>
                 </entryLink>
               </entryLinks>
@@ -3635,7 +4161,15 @@ Review 4 - Minor corrections and updates
                     <modifier type="add" field="category" value="db84-bb03-d026-c3a5"/>
                   </modifiers>
                   <costs>
-                    <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="3.0"/>
+                    <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="5.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="288b-a675-2f27-4297" name="Majestic Gun Battery" hidden="false" collective="false" import="true" targetId="50a4-cca5-44e5-2595" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="add" field="category" value="db84-bb03-d026-c3a5"/>
+                  </modifiers>
+                  <costs>
+                    <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="5.0"/>
                   </costs>
                 </entryLink>
               </entryLinks>
@@ -3758,6 +4292,7 @@ Review 4 - Minor corrections and updates
         <infoLink id="397a-99a1-c0fc-0578" name="Mine Layer" hidden="false" targetId="940f-44f3-71bf-f26c" type="rule"/>
         <infoLink id="92bf-e4b5-7e02-c8e5" name="Mine Sweeper" hidden="false" targetId="3c38-dac5-4a88-5358" type="rule"/>
         <infoLink id="589c-5a0b-f807-3f76" name="Royal Engineers�" hidden="false" targetId="563e-1c6c-a525-6552" type="rule"/>
+        <infoLink id="2bc9-3a74-6455-e40a" name="Vulnerable Stern" hidden="false" targetId="de5d-516f-4490-71dd" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="9ed0-cbfb-d7da-5986" name="Crown�" hidden="false" targetId="9512-6963-5c9a-e15f" primary="false"/>
@@ -4052,6 +4587,7 @@ A single maximum sized Hotspur Support Carrier Unit may be upgraded for +20pts t
         <infoLink id="1ca2-ce81-384d-cfd5" name="Lionhearted Crew" hidden="false" targetId="20dc-3eb1-0ca3-5a54" type="rule"/>
         <infoLink id="c2f3-efa5-4b0a-4d0d" name="McCurdy Shield Projector" hidden="false" targetId="4e80-1d7c-8f72-bb13" type="rule"/>
         <infoLink id="86c2-fe2d-75ba-a39f" name="Royal Engineers" hidden="false" targetId="563e-1c6c-a525-6552" type="rule"/>
+        <infoLink id="7de8-be43-7de7-4131" name="Vulnerable Stern" hidden="false" targetId="de5d-516f-4490-71dd" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="14e2-aae5-3470-9139" name="Canadian�" hidden="false" targetId="d4a3-52d1-9941-7ffb" primary="false"/>
@@ -4165,6 +4701,7 @@ A single maximum sized Hotspur Support Carrier Unit may be upgraded for +20pts t
         <infoLink id="2fcc-45a3-3c57-e8e2" name="Lionhearted Crew" hidden="false" targetId="20dc-3eb1-0ca3-5a54" type="rule"/>
         <infoLink id="02a8-590f-233f-54f9" name="Keep Calm and Carry On" hidden="false" targetId="592e-f786-82c0-385e" type="rule"/>
         <infoLink id="71f8-0a3e-1a46-d4b8" name="Terror From Below" hidden="false" targetId="6b16-eaab-a295-2ab3" type="rule"/>
+        <infoLink id="7b19-4cf6-6b2f-5eaa" name="Vanguard" hidden="false" targetId="f721-8318-3875-0140" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="1b50-416b-64c3-5a7b" name="New CategoryLink" hidden="false" targetId="d216-bc05-71f1-0fb4" primary="true"/>
@@ -4290,7 +4827,15 @@ A single maximum sized Hotspur Support Carrier Unit may be upgraded for +20pts t
                     <modifier type="add" field="category" value="db84-bb03-d026-c3a5"/>
                   </modifiers>
                   <costs>
-                    <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="3.0"/>
+                    <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="5.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="9d32-75ca-1e19-5d53" name="Majestic Gun Battery" hidden="false" collective="false" import="true" targetId="50a4-cca5-44e5-2595" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="add" field="category" value="db84-bb03-d026-c3a5"/>
+                  </modifiers>
+                  <costs>
+                    <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="5.0"/>
                   </costs>
                 </entryLink>
               </entryLinks>
@@ -4318,13 +4863,21 @@ A single maximum sized Hotspur Support Carrier Unit may be upgraded for +20pts t
                     <modifier type="add" field="category" value="f2af-2773-24ff-2e12"/>
                   </modifiers>
                   <costs>
-                    <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="3.0"/>
+                    <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="5.0"/>
                   </costs>
                 </entryLink>
                 <entryLink id="eb5b-ad80-eda6-ae53" name="Heavy Rocket Battery" hidden="false" collective="false" import="true" targetId="65b3-d9a8-e0a3-a028" type="selectionEntry">
                   <modifiers>
                     <modifier type="add" field="category" value="f2af-2773-24ff-2e12"/>
                   </modifiers>
+                </entryLink>
+                <entryLink id="4101-9e9b-84d0-0f19" name="Majestic Gun Battery" hidden="false" collective="false" import="true" targetId="50a4-cca5-44e5-2595" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="add" field="category" value="f2af-2773-24ff-2e12"/>
+                  </modifiers>
+                  <costs>
+                    <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="5.0"/>
+                  </costs>
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
@@ -4495,7 +5048,15 @@ A single maximum sized Hotspur Support Carrier Unit may be upgraded for +20pts t
                     <modifier type="add" field="category" value="db84-bb03-d026-c3a5"/>
                   </modifiers>
                   <costs>
-                    <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="3.0"/>
+                    <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="5.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="976c-ad0b-d06e-6f23" name="Majestic Gun Battery" hidden="false" collective="false" import="true" targetId="50a4-cca5-44e5-2595" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="add" field="category" value="db84-bb03-d026-c3a5"/>
+                  </modifiers>
+                  <costs>
+                    <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="5.0"/>
                   </costs>
                 </entryLink>
               </entryLinks>
@@ -4523,7 +5084,7 @@ A single maximum sized Hotspur Support Carrier Unit may be upgraded for +20pts t
                     <modifier type="add" field="category" value="f2af-2773-24ff-2e12"/>
                   </modifiers>
                   <costs>
-                    <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="3.0"/>
+                    <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="5.0"/>
                   </costs>
                 </entryLink>
                 <entryLink id="d4e1-0640-832b-3c30" name="Heavy Rocket Battery" hidden="false" collective="false" import="true" targetId="65b3-d9a8-e0a3-a028" type="selectionEntry">
@@ -4532,6 +5093,14 @@ A single maximum sized Hotspur Support Carrier Unit may be upgraded for +20pts t
                   </modifiers>
                   <costs>
                     <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="3.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="efee-50e0-b713-ee12" name="Majestic Gun Battery" hidden="false" collective="false" import="true" targetId="50a4-cca5-44e5-2595" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="add" field="category" value="f2af-2773-24ff-2e12"/>
+                  </modifiers>
+                  <costs>
+                    <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="5.0"/>
                   </costs>
                 </entryLink>
               </entryLinks>
@@ -4661,6 +5230,7 @@ A single maximum sized Hotspur Support Carrier Unit may be upgraded for +20pts t
         <infoLink id="2e6c-fc9d-f527-a135" name="SRS Recon Flight" hidden="false" targetId="0a26-0b4a-261f-3db0" type="rule"/>
         <infoLink id="aecd-6426-ecef-c2b2" name="Heavy Firepower" hidden="false" targetId="ecfb-a5b5-1cb8-8e39" type="rule"/>
         <infoLink id="6a0d-56d1-5cac-e67f" name="Mine Layer" hidden="false" targetId="940f-44f3-71bf-f26c" type="rule"/>
+        <infoLink id="68a0-0e98-c99c-40b5" name="Vulnerable Stern" hidden="false" targetId="de5d-516f-4490-71dd" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="053d-a666-3d7c-aee1" name="Crown" hidden="false" targetId="9512-6963-5c9a-e15f" primary="false"/>
@@ -4797,6 +5367,7 @@ A single maximum sized Hotspur Support Carrier Unit may be upgraded for +20pts t
         <infoLink id="ab76-0005-3e7b-82cb" name="Unstoppable" hidden="false" targetId="0a8e-d42a-454f-e75c" type="rule"/>
         <infoLink id="ee7b-27d1-a25e-8c6f" name="Elite Crew" hidden="false" targetId="4f7a-f51a-a60e-e6ba" type="rule"/>
         <infoLink id="57d2-8ed6-3a03-bfb0" name="Veteran Repair Teams" hidden="false" targetId="8543-0d7a-9a4f-8b17" type="rule"/>
+        <infoLink id="4327-8475-74be-08e7" name="Strategic Withdrawal" hidden="false" targetId="950e-974b-d566-0e66" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="5c4a-5a97-249e-ec7b" name="Crown�" hidden="false" targetId="9512-6963-5c9a-e15f" primary="false"/>
@@ -4850,6 +5421,7 @@ A single maximum sized Hotspur Support Carrier Unit may be upgraded for +20pts t
         <infoLink id="11a3-f2af-1e54-86ac" name="Loyal She Began; Thus She Remains" hidden="false" targetId="4e23-608b-4365-8b65" type="rule"/>
         <infoLink id="35b4-1230-d980-d206" name="Lionhearted Crew" hidden="false" targetId="20dc-3eb1-0ca3-5a54" type="rule"/>
         <infoLink id="4449-43eb-9ca1-c9c5" name="Royal Engineers" hidden="false" targetId="563e-1c6c-a525-6552" type="rule"/>
+        <infoLink id="d2d2-d34e-4178-8fd5" name="Vulnerable Stern" hidden="false" targetId="de5d-516f-4490-71dd" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="6e89-862f-f95e-59ec" name="Canadian�" hidden="false" targetId="d4a3-52d1-9941-7ffb" primary="false"/>
@@ -5606,6 +6178,7 @@ A single maximum sized Hotspur Support Carrier Unit may be upgraded for +20pts t
         <infoLink id="99d9-cf98-1491-3492" name="Anti-Air Specialist" hidden="false" targetId="7baa-3e4c-35ea-5614" type="rule"/>
         <infoLink id="d2ea-4851-2856-f246" name="Lionhearted Crew" hidden="false" targetId="20dc-3eb1-0ca3-5a54" type="rule"/>
         <infoLink id="d2dc-20a3-64f1-6e7e" name="Fortunes of War" hidden="false" targetId="949d-d37f-c7c8-1093" type="rule"/>
+        <infoLink id="a249-44ca-6281-e414" name="Vulnerable Stern" hidden="false" targetId="de5d-516f-4490-71dd" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="2ec4-ada6-7865-f22b" name="New CategoryLink" hidden="false" targetId="fef3-1842-580c-4bef" primary="true"/>
@@ -6090,9 +6663,6 @@ A single maximum sized Hotspur Support Carrier Unit may be upgraded for +20pts t
                   <modifiers>
                     <modifier type="add" field="category" value="f2af-2773-24ff-2e12"/>
                   </modifiers>
-                  <costs>
-                    <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="5.0"/>
-                  </costs>
                 </entryLink>
                 <entryLink id="d669-79de-56ab-ef30" name="Heavy Torpedo Turret" hidden="false" collective="false" import="true" targetId="26a3-cf78-63bd-dd6b" type="selectionEntry">
                   <modifiers>
@@ -6165,7 +6735,7 @@ A single maximum sized Hotspur Support Carrier Unit may be upgraded for +20pts t
                   </costs>
                 </entryLink>
               </entryLinks>
-            </selectionEntryGroup>																														   
+            </selectionEntryGroup>
           </selectionEntryGroups>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -6257,7 +6827,7 @@ A single maximum sized Hotspur Support Carrier Unit may be upgraded for +20pts t
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="680c-cbd5-a7f0-144d" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="053a-0fa2-e96a-ef97" name="Gun Battery" hidden="false" collective="true" import="true" targetId="e32f-eb1d-5c03-b61c" type="selectionEntry">
+        <entryLink id="053a-0fa2-e96a-ef97" name="Rocket Battery" hidden="false" collective="true" import="true" targetId="1420-4e0a-ca1d-6cb7" type="selectionEntry">
           <modifiers>
             <modifier type="add" field="category" value="db84-bb03-d026-c3a5"/>
           </modifiers>
@@ -6268,7 +6838,7 @@ A single maximum sized Hotspur Support Carrier Unit may be upgraded for +20pts t
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="30.0"/>
+        <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="28.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="27d9-943b-1840-698b" name="Ross" publicationId="dbca-8d57-b848-457e" hidden="false" collective="false" import="true" type="model">
@@ -6290,6 +6860,7 @@ A single maximum sized Hotspur Support Carrier Unit may be upgraded for +20pts t
         <categoryLink id="e142-75b3-b857-716b" name="Battle Platform" hidden="false" targetId="8b0e-929f-ad70-2b6a" primary="false"/>
         <categoryLink id="19c8-b460-3840-376e" name="Crown" hidden="false" targetId="9512-6963-5c9a-e15f" primary="false"/>
         <categoryLink id="2470-f836-50c3-ffba" name="Ross Class" hidden="false" targetId="cae3-7197-a87a-66a9" primary="false"/>
+        <categoryLink id="640b-e227-0b43-2ff2" name="Irish" hidden="false" targetId="bf1b-5d15-a572-6d42" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="2335-189a-ed44-57b0" name="Main Weapon" hidden="false" collective="false" import="true">
@@ -6406,7 +6977,15 @@ A single maximum sized Hotspur Support Carrier Unit may be upgraded for +20pts t
                     <modifier type="add" field="category" value="db84-bb03-d026-c3a5"/>
                   </modifiers>
                   <costs>
-                    <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="3.0"/>
+                    <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="5.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="474b-c67a-0e2d-d8ec" name="Majestic Gun Battery" hidden="false" collective="false" import="true" targetId="50a4-cca5-44e5-2595" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="add" field="category" value="db84-bb03-d026-c3a5"/>
+                  </modifiers>
+                  <costs>
+                    <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="5.0"/>
                   </costs>
                 </entryLink>
               </entryLinks>
@@ -6431,6 +7010,14 @@ A single maximum sized Hotspur Support Carrier Unit may be upgraded for +20pts t
                   </costs>
                 </entryLink>
                 <entryLink id="8593-5628-9c87-357f" name="Heavy Torpedo Turret" hidden="false" collective="false" import="true" targetId="26a3-cf78-63bd-dd6b" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="add" field="category" value="4e9e-7862-58ad-15e6"/>
+                  </modifiers>
+                  <costs>
+                    <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="5.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="c851-08bf-5c57-e9c5" name="Majestic Gun Battery" hidden="false" collective="false" import="true" targetId="50a4-cca5-44e5-2595" type="selectionEntry">
                   <modifiers>
                     <modifier type="add" field="category" value="4e9e-7862-58ad-15e6"/>
                   </modifiers>
@@ -6464,7 +7051,15 @@ A single maximum sized Hotspur Support Carrier Unit may be upgraded for +20pts t
                     <modifier type="add" field="category" value="5347-4855-4421-ed77"/>
                   </modifiers>
                   <costs>
-                    <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="3.0"/>
+                    <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="5.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="5f3a-1c4e-eaf8-ab97" name="Majestic Gun Battery" hidden="false" collective="false" import="true" targetId="50a4-cca5-44e5-2595" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="add" field="category" value="5347-4855-4421-ed77"/>
+                  </modifiers>
+                  <costs>
+                    <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="5.0"/>
                   </costs>
                 </entryLink>
               </entryLinks>
@@ -6619,6 +7214,7 @@ A single maximum sized Hotspur Support Carrier Unit may be upgraded for +20pts t
         <infoLink id="83ba-c30f-a34a-3dca" name="Lionhearted Crew" hidden="false" targetId="20dc-3eb1-0ca3-5a54" type="rule"/>
         <infoLink id="99d8-9f54-15c7-d7ea" name="Royal Engineers" hidden="false" targetId="563e-1c6c-a525-6552" type="rule"/>
         <infoLink id="5856-165f-5965-6e02" name="Strategic Asset" hidden="false" targetId="12ec-f9c6-b68b-913b" type="rule"/>
+        <infoLink id="546b-7703-e2b5-f646" name="Supply Depot" hidden="false" targetId="23f5-7a90-116f-cba1" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="d033-c080-f91c-4d43" name="New CategoryLink" hidden="false" targetId="464e-890a-84b2-8ce9" primary="true"/>
@@ -6748,7 +7344,15 @@ A single maximum sized Hotspur Support Carrier Unit may be upgraded for +20pts t
                     <modifier type="add" field="category" value="db84-bb03-d026-c3a5"/>
                   </modifiers>
                   <costs>
-                    <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="3.0"/>
+                    <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="5.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="78b7-bb1d-452b-0a08" name="Majestic Gun Battery" hidden="false" collective="false" import="true" targetId="50a4-cca5-44e5-2595" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="add" field="category" value="db84-bb03-d026-c3a5"/>
+                  </modifiers>
+                  <costs>
+                    <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="5.0"/>
                   </costs>
                 </entryLink>
               </entryLinks>
@@ -6776,7 +7380,7 @@ A single maximum sized Hotspur Support Carrier Unit may be upgraded for +20pts t
                     <modifier type="add" field="category" value="f2af-2773-24ff-2e12"/>
                   </modifiers>
                   <costs>
-                    <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="3.0"/>
+                    <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="5.0"/>
                   </costs>
                 </entryLink>
                 <entryLink id="0d17-ec66-f2ba-d305" name="Heavy Rocket Battery" hidden="false" collective="false" import="true" targetId="65b3-d9a8-e0a3-a028" type="selectionEntry">
@@ -6785,6 +7389,14 @@ A single maximum sized Hotspur Support Carrier Unit may be upgraded for +20pts t
                   </modifiers>
                   <costs>
                     <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="3.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="93ca-f42d-b2c1-ef3f" name="Majestic Gun Battery" hidden="false" collective="false" import="true" targetId="50a4-cca5-44e5-2595" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="add" field="category" value="f2af-2773-24ff-2e12"/>
+                  </modifiers>
+                  <costs>
+                    <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="5.0"/>
                   </costs>
                 </entryLink>
               </entryLinks>
@@ -6882,7 +7494,15 @@ A single maximum sized Hotspur Support Carrier Unit may be upgraded for +20pts t
                     <modifier type="add" field="category" value="db84-bb03-d026-c3a5"/>
                   </modifiers>
                   <costs>
-                    <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="3.0"/>
+                    <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="5.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="9864-bda4-8bc3-268f" name="Majestic Gun Battery" hidden="false" collective="false" import="true" targetId="50a4-cca5-44e5-2595" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="add" field="category" value="db84-bb03-d026-c3a5"/>
+                  </modifiers>
+                  <costs>
+                    <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="5.0"/>
                   </costs>
                 </entryLink>
               </entryLinks>
@@ -6910,7 +7530,7 @@ A single maximum sized Hotspur Support Carrier Unit may be upgraded for +20pts t
                     <modifier type="add" field="category" value="f2af-2773-24ff-2e12"/>
                   </modifiers>
                   <costs>
-                    <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="3.0"/>
+                    <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="5.0"/>
                   </costs>
                 </entryLink>
                 <entryLink id="e3a0-53f1-6dd1-7024" name="Heavy Rocket Battery" hidden="false" collective="false" import="true" targetId="65b3-d9a8-e0a3-a028" type="selectionEntry">
@@ -6919,6 +7539,14 @@ A single maximum sized Hotspur Support Carrier Unit may be upgraded for +20pts t
                   </modifiers>
                   <costs>
                     <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="3.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="6717-b86f-de32-4513" name="Majestic Gun Battery" hidden="false" collective="false" import="true" targetId="50a4-cca5-44e5-2595" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="add" field="category" value="f2af-2773-24ff-2e12"/>
+                  </modifiers>
+                  <costs>
+                    <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="5.0"/>
                   </costs>
                 </entryLink>
               </entryLinks>
@@ -7003,7 +7631,7 @@ A single maximum sized Hotspur Support Carrier Unit may be upgraded for +20pts t
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="390.0"/>
+        <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="350.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="23ff-6b38-3a6f-e6c6" name="Camelot" publicationId="dbca-8d57-b848-457e" hidden="false" collective="false" import="true" type="model">
@@ -7035,13 +7663,6 @@ A single maximum sized Hotspur Support Carrier Unit may be upgraded for +20pts t
           </constraints>
           <selectionEntryGroups>
             <selectionEntryGroup id="5e26-2fd7-17d5-93f8" name="Front First" hidden="false" collective="false" import="true" defaultSelectionEntryId="f41e-6820-36fc-937f">
-              <modifiers>
-                <modifier type="set" field="ab89-0d83-3ead-0092" value="0.0">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="25b9-7f26-cbd9-e68f" type="atLeast"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ab89-0d83-3ead-0092" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="01ff-ca51-fd52-54e1" type="max"/>
@@ -7065,19 +7686,20 @@ A single maximum sized Hotspur Support Carrier Unit may be upgraded for +20pts t
                     <modifier type="add" field="category" value="db84-bb03-d026-c3a5"/>
                   </modifiers>
                   <costs>
-                    <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="3.0"/>
+                    <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="5.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="4052-88f6-c060-8984" name="Majestic Gun Battery" hidden="false" collective="false" import="true" targetId="50a4-cca5-44e5-2595" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="add" field="category" value="db84-bb03-d026-c3a5"/>
+                  </modifiers>
+                  <costs>
+                    <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="5.0"/>
                   </costs>
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
             <selectionEntryGroup id="922c-c83a-7be9-4c87" name="Rear" hidden="false" collective="false" import="true" defaultSelectionEntryId="5652-038a-2d47-7628">
-              <modifiers>
-                <modifier type="set" field="3569-b7b7-a690-452f" value="0.0">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="25b9-7f26-cbd9-e68f" type="atLeast"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3569-b7b7-a690-452f" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2f89-3866-adc5-6ed8" type="max"/>
@@ -7093,7 +7715,7 @@ A single maximum sized Hotspur Support Carrier Unit may be upgraded for +20pts t
                     <modifier type="add" field="category" value="f2af-2773-24ff-2e12"/>
                   </modifiers>
                   <costs>
-                    <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="3.0"/>
+                    <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="5.0"/>
                   </costs>
                 </entryLink>
                 <entryLink id="dacf-dfb1-bb8c-1548" name="Heavy Rocket Battery" hidden="false" collective="false" import="true" targetId="65b3-d9a8-e0a3-a028" type="selectionEntry">
@@ -7104,16 +7726,17 @@ A single maximum sized Hotspur Support Carrier Unit may be upgraded for +20pts t
                     <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="3.0"/>
                   </costs>
                 </entryLink>
+                <entryLink id="6bcd-5b9a-e8f0-d4fa" name="Majestic Gun Battery" hidden="false" collective="false" import="true" targetId="50a4-cca5-44e5-2595" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="add" field="category" value="f2af-2773-24ff-2e12"/>
+                  </modifiers>
+                  <costs>
+                    <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="5.0"/>
+                  </costs>
+                </entryLink>
               </entryLinks>
             </selectionEntryGroup>
             <selectionEntryGroup id="b09b-bebb-a897-7608" name="Front Second" hidden="false" collective="false" import="true" defaultSelectionEntryId="24fc-2812-877d-5bb3">
-              <modifiers>
-                <modifier type="set" field="f02a-d1f1-ea74-8eaf" value="0.0">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="25b9-7f26-cbd9-e68f" type="atLeast"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f02a-d1f1-ea74-8eaf" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3d17-2842-0970-9d23" type="max"/>
@@ -7137,7 +7760,15 @@ A single maximum sized Hotspur Support Carrier Unit may be upgraded for +20pts t
                     <modifier type="add" field="category" value="db84-bb03-d026-c3a5"/>
                   </modifiers>
                   <costs>
-                    <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="3.0"/>
+                    <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="5.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="4487-32bc-181e-5f18" name="Majestic Gun Battery" hidden="false" collective="false" import="true" targetId="50a4-cca5-44e5-2595" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="add" field="category" value="db84-bb03-d026-c3a5"/>
+                  </modifiers>
+                  <costs>
+                    <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="5.0"/>
                   </costs>
                 </entryLink>
               </entryLinks>
@@ -7178,7 +7809,7 @@ A single maximum sized Hotspur Support Carrier Unit may be upgraded for +20pts t
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="375.0"/>
+        <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="360.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="fb3d-c2b8-3fd9-e6b9" name="Avalon" publicationId="dbca-8d57-b848-457e" hidden="false" collective="false" import="true" type="model">
@@ -7345,7 +7976,15 @@ A single maximum sized Hotspur Support Carrier Unit may be upgraded for +20pts t
                     <modifier type="add" field="category" value="db84-bb03-d026-c3a5"/>
                   </modifiers>
                   <costs>
-                    <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="3.0"/>
+                    <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="5.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="699c-2481-9f1a-e3af" name="Majestic Gun Battery" hidden="false" collective="false" import="true" targetId="50a4-cca5-44e5-2595" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="add" field="category" value="db84-bb03-d026-c3a5"/>
+                  </modifiers>
+                  <costs>
+                    <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="5.0"/>
                   </costs>
                 </entryLink>
               </entryLinks>
@@ -7366,7 +8005,7 @@ A single maximum sized Hotspur Support Carrier Unit may be upgraded for +20pts t
                     <modifier type="add" field="category" value="f2af-2773-24ff-2e12"/>
                   </modifiers>
                   <costs>
-                    <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="3.0"/>
+                    <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="5.0"/>
                   </costs>
                 </entryLink>
                 <entryLink id="c93d-e2a6-d858-a888" name="Heavy Rocket Battery" hidden="false" collective="false" import="true" targetId="65b3-d9a8-e0a3-a028" type="selectionEntry">
@@ -7375,6 +8014,14 @@ A single maximum sized Hotspur Support Carrier Unit may be upgraded for +20pts t
                   </modifiers>
                   <costs>
                     <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="3.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="47a1-3c9e-4670-84ef" name="Majestic Gun Battery" hidden="false" collective="false" import="true" targetId="50a4-cca5-44e5-2595" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="add" field="category" value="f2af-2773-24ff-2e12"/>
+                  </modifiers>
+                  <costs>
+                    <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="5.0"/>
                   </costs>
                 </entryLink>
               </entryLinks>
@@ -7403,12 +8050,60 @@ A single maximum sized Hotspur Support Carrier Unit may be upgraded for +20pts t
                     <modifier type="add" field="category" value="db84-bb03-d026-c3a5"/>
                   </modifiers>
                   <costs>
-                    <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="3.0"/>
+                    <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="5.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="824c-d965-6854-f1cc" name="Majestic Gun Battery" hidden="false" collective="false" import="true" targetId="50a4-cca5-44e5-2595" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="add" field="category" value="db84-bb03-d026-c3a5"/>
+                  </modifiers>
+                  <costs>
+                    <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="5.0"/>
                   </costs>
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="c133-bf01-a397-9466" name="Batteries" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="cbd1-5560-05fa-e3c0" name="Gun Battery" hidden="false" collective="false" import="true" targetId="e32f-eb1d-5c03-b61c" type="selectionEntry">
+              <modifiers>
+                <modifier type="add" field="category" value="c93d-a414-b1bc-7d2c"/>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="cb16-0644-261c-207c" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ea56-c4ca-8934-0072" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="9301-9220-9039-2273" name="Gun Battery" hidden="false" collective="false" import="true" targetId="e32f-eb1d-5c03-b61c" type="selectionEntry">
+              <modifiers>
+                <modifier type="add" field="category" value="ce6f-067d-9ad4-ddaa"/>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ce05-b06e-71af-4fd2" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e63c-42de-a3a2-f660" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="0634-ec1d-f0f1-ce48" name="Gun Battery" hidden="false" collective="false" import="true" targetId="e32f-eb1d-5c03-b61c" type="selectionEntry">
+              <modifiers>
+                <modifier type="add" field="category" value="4e9e-7862-58ad-15e6"/>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c9d8-d07e-7136-593a" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0eb1-2013-4197-6fdd" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="5242-d8ac-96aa-4aa7" name="Gun Battery" hidden="false" collective="false" import="true" targetId="e32f-eb1d-5c03-b61c" type="selectionEntry">
+              <modifiers>
+                <modifier type="add" field="category" value="5347-4855-4421-ed77"/>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e732-7d39-38fb-336f" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5e54-d8b2-e65c-605c" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
@@ -7425,24 +8120,6 @@ A single maximum sized Hotspur Support Carrier Unit may be upgraded for +20pts t
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0d21-6f79-6dec-2cf5" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d745-27e7-6725-d4ab" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="13bf-8f36-7863-7611" name="Gun Battery" hidden="false" collective="false" import="true" targetId="e32f-eb1d-5c03-b61c" type="selectionEntry">
-          <modifiers>
-            <modifier type="add" field="category" value="0cd5-1e4e-c51e-c338"/>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3cce-d93e-874c-4ef1" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2736-cb41-03b0-c9b8" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="7827-8791-6b27-c84c" name="Gun Battery" hidden="false" collective="false" import="true" targetId="e32f-eb1d-5c03-b61c" type="selectionEntry">
-          <modifiers>
-            <modifier type="add" field="category" value="5b70-4095-b55c-9745"/>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8d19-9d5b-0d6a-e167" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="086c-536e-a73f-0a0b" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="7a7b-5722-a214-391c" name="Heavy Prow Ram" hidden="false" collective="false" import="true" targetId="3b69-5936-2ff8-bc08" type="selectionEntry">
@@ -7462,7 +8139,7 @@ A single maximum sized Hotspur Support Carrier Unit may be upgraded for +20pts t
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="330.0"/>
+        <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="360.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8fa6-3693-fb5d-0ad3" name="Light Torpedo Salvo" hidden="false" collective="false" import="true" type="upgrade">
@@ -7475,6 +8152,514 @@ A single maximum sized Hotspur Support Carrier Unit may be upgraded for +20pts t
       <costs>
         <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="0.0"/>
       </costs>
+    </selectionEntry>
+    <selectionEntry id="50a4-cca5-44e5-2595" name="Majestic Gun Battery" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="255a-68be-7634-2dd1" name="Majestic Gun Battery" hidden="false" targetId="799f-1288-d4b1-74ed" type="rule"/>
+        <infoLink id="c536-8dba-a0df-8980" name="Majestic Gun Battery" hidden="false" targetId="89b0-511f-6c55-7dce" type="profile"/>
+        <infoLink id="6d59-9dc1-5316-8ef5" name="Gunnery" hidden="false" targetId="c20b-cc1d-12bf-23a8" type="rule"/>
+        <infoLink id="0ebc-1a02-ed53-65d1" name="Extreme Range" hidden="false" targetId="d3ac-5484-ad1a-0c87" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a564-1d94-bf1c-3ab6" name="HMS Indefatigable" publicationId="dbca-8d57-b848-457e" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e537-b43d-4412-68db" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="890a-0598-90aa-5426" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="829d-f6e9-986c-21f4" name="Britannia" hidden="false" targetId="762f-52e8-89d1-e20f" type="profile"/>
+        <infoLink id="0037-b33f-4586-9412" name="Keep Calm and Carry On" hidden="false" targetId="592e-f786-82c0-385e" type="rule"/>
+        <infoLink id="72f5-0464-f19b-e561" name="Heavy Firepower" hidden="false" targetId="ecfb-a5b5-1cb8-8e39" type="rule"/>
+        <infoLink id="414b-e76a-0066-0b1d" name="Lionhearted Crew" hidden="false" targetId="20dc-3eb1-0ca3-5a54" type="rule"/>
+        <infoLink id="506b-ed46-50f1-57b3" name="Royal Engineers" hidden="false" targetId="563e-1c6c-a525-6552" type="rule"/>
+        <infoLink id="1bd4-d16e-c24c-6b46" name="Reliable Design" hidden="false" targetId="6f17-ddcb-35bc-4e97" type="rule"/>
+        <infoLink id="33a4-294c-dd98-e424" name="Devil’s Own Luck" hidden="false" targetId="4f0b-ae8b-9840-cbe0" type="rule"/>
+        <infoLink id="c8fb-8f98-c3fc-5881" name="Giant Slayer" hidden="false" targetId="0d99-00ae-4c22-20b7" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="29fc-201b-0aab-3dbb" name="New CategoryLink" hidden="false" targetId="fef3-1842-580c-4bef" primary="true"/>
+        <categoryLink id="5e3b-5d4b-f389-f188" name="Crown" hidden="false" targetId="9512-6963-5c9a-e15f" primary="false"/>
+        <categoryLink id="a4c7-41d5-4fd7-0cd8" name="British" hidden="false" targetId="fffb-149d-6db1-4439" primary="false"/>
+        <categoryLink id="5450-ce0e-d1af-eb0e" name="Heavy Battleship" hidden="false" targetId="1fe5-12b2-2e30-7802" primary="false"/>
+        <categoryLink id="1b81-ef47-28af-62e0" name="Britannia Class" hidden="false" targetId="6427-c580-219d-c874" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="85ea-a770-7077-1fb3" name="Main Weapon" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d591-425a-1c87-5fd2" type="min"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c33e-7308-ec00-36ae" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="a3e7-aaa0-9aaa-00a8" name="Heavy Gun Battery" hidden="false" collective="false" import="true" targetId="90c9-59e3-935f-7a20" type="selectionEntry">
+              <modifiers>
+                <modifier type="add" field="category" value="db84-bb03-d026-c3a5"/>
+              </modifiers>
+            </entryLink>
+            <entryLink id="3cec-8c29-b263-54d1" name="Heavy Gun Battery" hidden="false" collective="false" import="true" targetId="90c9-59e3-935f-7a20" type="selectionEntry">
+              <modifiers>
+                <modifier type="add" field="category" value="db84-bb03-d026-c3a5"/>
+              </modifiers>
+            </entryLink>
+            <entryLink id="0aad-4cbd-7b1e-03fa" name="Heavy Gun Battery" hidden="false" collective="false" import="true" targetId="90c9-59e3-935f-7a20" type="selectionEntry">
+              <modifiers>
+                <modifier type="add" field="category" value="f2af-2773-24ff-2e12"/>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="d5be-940a-2ce5-9498" name="Heavy Prow Ram" hidden="false" collective="false" import="true" targetId="3b69-5936-2ff8-bc08" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f766-a297-b5e6-29f3" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8687-668e-6272-7545" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="5db5-ce91-5e83-3a00" name="Heavy Broadside" hidden="false" collective="false" import="true" targetId="110e-749a-0199-27be" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f2c2-b1f9-7b0d-1315" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2235-018f-1372-d425" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="79bd-af03-64cb-5508" name="Heavy Torpedo Salvo " hidden="false" collective="false" import="true" targetId="18e7-2755-41be-00c0" type="selectionEntry">
+          <modifiers>
+            <modifier type="add" field="category" value="dbb4-72d5-bceb-70b3"/>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7fd2-8859-201f-16d0" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0dfd-ffc8-8ea4-af14" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="3160-e497-749c-38c6" name="Guardian generator" hidden="false" collective="false" import="true" targetId="094a-09c2-c40f-72c2" type="selectionEntry">
+          <modifiers>
+            <modifier type="add" field="category" value="5935-bcd7-b498-5f40"/>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ab96-6336-e79a-485c" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8376-43aa-f92f-567e" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="295.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3b91-1d21-f9e2-8bf8" name="HMS Phaeton" publicationId="dbca-8d57-b848-457e" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="78cf-9649-94b9-f96a" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5378-d5f7-613e-c7df" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="a3df-8150-321c-7ea8" name="Britannia" hidden="false" targetId="762f-52e8-89d1-e20f" type="profile"/>
+        <infoLink id="3fa3-f984-a146-4269" name="Keep Calm and Carry On" hidden="false" targetId="592e-f786-82c0-385e" type="rule"/>
+        <infoLink id="599c-21f6-ff51-219f" name="Heavy Firepower" hidden="false" targetId="ecfb-a5b5-1cb8-8e39" type="rule"/>
+        <infoLink id="4997-6021-2c8d-88c5" name="Lionhearted Crew" hidden="false" targetId="20dc-3eb1-0ca3-5a54" type="rule"/>
+        <infoLink id="e057-5632-5e1d-5a1a" name="Royal Engineers" hidden="false" targetId="563e-1c6c-a525-6552" type="rule"/>
+        <infoLink id="2c67-071d-1f85-c92f" name="Reliable Design" hidden="false" targetId="6f17-ddcb-35bc-4e97" type="rule"/>
+        <infoLink id="469b-289e-4506-11eb" name="Torpedo Master-Calculator" hidden="false" targetId="d7bf-054e-82a4-bec0" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="8ff0-d61a-5f29-8f11" name="New CategoryLink" hidden="false" targetId="fef3-1842-580c-4bef" primary="true"/>
+        <categoryLink id="ac66-8202-4e5a-2d74" name="Crown" hidden="false" targetId="9512-6963-5c9a-e15f" primary="false"/>
+        <categoryLink id="8127-1767-fba7-ce2e" name="British" hidden="false" targetId="fffb-149d-6db1-4439" primary="false"/>
+        <categoryLink id="9ae9-343c-c473-2017" name="Heavy Battleship" hidden="false" targetId="1fe5-12b2-2e30-7802" primary="false"/>
+        <categoryLink id="78e5-c2ce-8501-10e7" name="Britannia Class" hidden="false" targetId="6427-c580-219d-c874" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="562b-a889-2ffc-3b98" name="Main Weapon" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="45bb-516f-7fa8-656e" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2269-7622-086d-9659" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="0519-2daa-b2c6-4821" name="Heavy Torpedo Turret" hidden="false" collective="false" import="true" targetId="26a3-cf78-63bd-dd6b" type="selectionEntry">
+              <modifiers>
+                <modifier type="add" field="category" value="db84-bb03-d026-c3a5"/>
+              </modifiers>
+            </entryLink>
+            <entryLink id="432c-e308-1020-d37b" name="Heavy Torpedo Turret" hidden="false" collective="false" import="true" targetId="26a3-cf78-63bd-dd6b" type="selectionEntry">
+              <modifiers>
+                <modifier type="add" field="category" value="db84-bb03-d026-c3a5"/>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="67e4-a290-325c-14fc" name="Heavy Prow Ram" hidden="false" collective="false" import="true" targetId="3b69-5936-2ff8-bc08" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6396-0964-e917-96ad" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8f24-904a-27e8-ae56" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="a786-8ed2-b4b4-6d66" name="Heavy Broadside" hidden="false" collective="false" import="true" targetId="110e-749a-0199-27be" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0457-cb64-e0ac-63a0" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3ee5-f8e9-c9ac-b15c" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="c4db-69f3-1c31-b3c5" name="Heavy Torpedo Salvo " hidden="false" collective="false" import="true" targetId="18e7-2755-41be-00c0" type="selectionEntry">
+          <modifiers>
+            <modifier type="add" field="category" value="dbb4-72d5-bceb-70b3"/>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="afdf-638b-b414-4cd4" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9232-f171-171a-7364" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="0957-c848-7d77-8388" name="Guardian generator" hidden="false" collective="false" import="true" targetId="094a-09c2-c40f-72c2" type="selectionEntry">
+          <modifiers>
+            <modifier type="add" field="category" value="5935-bcd7-b498-5f40"/>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4802-78c1-f1d8-4f46" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="036f-26e2-c8fa-430e" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="202c-3cb5-a64b-91f7" name="Trident generator" hidden="false" collective="false" import="true" targetId="4f9f-bf12-daca-15ed" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0e7e-5ab4-0e58-9eef" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="86c8-cde2-fbd9-1a1d" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="279.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4d6f-e9e3-c052-c256" name="HMCS Saskatchewan" publicationId="dbca-8d57-b848-457e" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d7a6-3ef8-4ffe-17bd" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="865c-50e7-27d0-7c6f" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="9640-88b7-3751-1415" name="Protecteur" hidden="false" targetId="ced3-c53b-ff9b-fe92" type="profile"/>
+        <infoLink id="23fe-ab85-7d23-547a" name="Loyal She Began; Thus She Remains" hidden="false" targetId="4e23-608b-4365-8b65" type="rule"/>
+        <infoLink id="e362-439a-3e05-18f0" name="Combat Air Patrol" hidden="false" targetId="5eca-214c-5274-55db" type="rule"/>
+        <infoLink id="a374-fa18-3e17-73a2" name="Lionhearted Crew" hidden="false" targetId="20dc-3eb1-0ca3-5a54" type="rule"/>
+        <infoLink id="1381-2218-a47f-b308" name="Royal Engineers" hidden="false" targetId="563e-1c6c-a525-6552" type="rule"/>
+        <infoLink id="d438-d5d9-5555-041c" name="SRS Mine Clearance" hidden="false" targetId="b8d7-281f-b227-a523" type="rule"/>
+        <infoLink id="0c67-fe69-454e-0eae" name="SRS Recon Flight" hidden="false" targetId="0a26-0b4a-261f-3db0" type="rule"/>
+        <infoLink id="2896-1fbc-8e06-13d2" name="Heavy Firepower" hidden="false" targetId="ecfb-a5b5-1cb8-8e39" type="rule"/>
+        <infoLink id="fc17-157a-31b8-0fed" name="Vulnerable Stern" hidden="false" targetId="de5d-516f-4490-71dd" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="5a1c-5197-4ada-2e99" name="Crown" hidden="false" targetId="9512-6963-5c9a-e15f" primary="false"/>
+        <categoryLink id="7446-08e3-c3b3-83f2" name="New CategoryLink" hidden="false" targetId="fef3-1842-580c-4bef" primary="true"/>
+        <categoryLink id="e9bf-31e6-f49d-e079" name="Canadian" hidden="false" targetId="d4a3-52d1-9941-7ffb" primary="false"/>
+        <categoryLink id="262f-9eca-5cfd-b24f" name="Submersible Carrier" hidden="false" targetId="f171-ab57-1700-19db" primary="false"/>
+        <categoryLink id="f2f1-6ad7-3691-bdeb" name="Protecteur Class" hidden="false" targetId="ddb5-f0d6-665c-3ac4" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="b979-0c32-84a2-af92" name="SRS" publicationId="e265-8c7f-a4b2-a48e" hidden="false" collective="false" import="true" type="upgrade">
+          <comment>No. 1 Squadron
+A single maximum sized Hotspur Support Carrier Unit may be upgraded for +20pts to take the elite Defiant fighter squadron, the No. 1 Squadron. Their motto, In omnibus princeps (&quot;First in all things&quot;) reflects the squadron&apos;s status as the RFC’s oldest unit. Designers note: It is recommended that you paint or otherwise mark the No 1 Squadron SRS tokens differently to your other SRS Tokens. NUMBER ONE SQUADRON SRS: SRS Tokens launched by Units with this rule are called Number One Squadron�</comment>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4f9d-ca87-dfba-d0f6" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5806-4186-801c-e4a9" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="7a6f-4b53-093f-30f1" name="SRS" publicationId="e265-8c7f-a4b2-a48e" hidden="false" targetId="b5a8-5584-f221-f445" type="profile">
+              <modifiers>
+                <modifier type="set" field="38e6-209c-1587-2cd0" value="5/2"/>
+              </modifiers>
+            </infoLink>
+          </infoLinks>
+          <costs>
+            <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="d767-5504-ffe4-3fd1" name="Unexpected Air Strike" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a3c9-ab1b-8edc-e2a5" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="2f9d-c6ae-bc7b-e734" name="Unexpected Air Strike" hidden="false" targetId="db2e-417f-31d3-8909" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="10.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="4ca8-6b28-a891-623f" name="Guardian generator" hidden="false" collective="false" import="true" targetId="094a-09c2-c40f-72c2" type="selectionEntry">
+          <modifiers>
+            <modifier type="add" field="category" value="8901-cc02-f55e-2ee5"/>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="00f9-6958-1087-f33f" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4358-e3fc-a93b-55d5" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="a10a-d5bd-dcd3-923b" name="Broadside" hidden="false" collective="false" import="true" targetId="0600-8fa9-227d-91ba" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b80d-8584-ea1b-3691" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="64e4-4d97-0b3c-f9ba" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="01df-3162-3765-b5c2" name="Heavy Torpedo Salvo " hidden="false" collective="false" import="true" targetId="18e7-2755-41be-00c0" type="selectionEntry">
+          <modifiers>
+            <modifier type="add" field="category" value="dbb4-72d5-bceb-70b3"/>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a547-de3a-d5e7-b5ce" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="96a6-da4d-a65f-4265" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="475e-632b-904d-3937" name="Heavy Torpedo Salvo " hidden="false" collective="false" import="true" targetId="18e7-2755-41be-00c0" type="selectionEntry">
+          <modifiers>
+            <modifier type="add" field="category" value="dbb4-72d5-bceb-70b3"/>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="aabc-38be-99af-5aea" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6b1c-c29d-0fef-0ce7" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="e7ae-7266-dcd9-4646" name="Heavy Torpedo Salvo " hidden="false" collective="false" import="true" targetId="18e7-2755-41be-00c0" type="selectionEntry">
+          <modifiers>
+            <modifier type="add" field="category" value="dbb4-72d5-bceb-70b3"/>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3e7f-5eef-facb-a08b" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ab47-0724-2c1a-6693" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="270.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3bab-c846-bf7e-ac8b" name="HMCS Tilloch Galt" publicationId="dbca-8d57-b848-457e" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e620-34e8-e03b-e02f" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="03cc-d69b-183f-8688" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="1926-32db-046a-0ff4" name="Camelot" hidden="false" targetId="38c0-8e49-ff56-3705" type="profile"/>
+        <infoLink id="25b7-d3a3-8857-c752" name="Heavy Firepower" hidden="false" targetId="ecfb-a5b5-1cb8-8e39" type="rule"/>
+        <infoLink id="34ba-78fa-b04c-6cbb" name="Inspirational" hidden="false" targetId="b48d-b4e0-19e8-d85a" type="rule"/>
+        <infoLink id="7e5c-1c4f-105f-9b70" name="Lionhearted Crew" hidden="false" targetId="20dc-3eb1-0ca3-5a54" type="rule"/>
+        <infoLink id="db1d-14ee-bf5e-e936" name="Royal Engineers" hidden="false" targetId="563e-1c6c-a525-6552" type="rule"/>
+        <infoLink id="302a-28c8-cc12-f4b0" name="Guardian Surge" hidden="false" targetId="25ea-b812-952e-dd7d" type="rule"/>
+        <infoLink id="8588-2972-fc80-695d" name="Ablative Prow Armour" hidden="false" targetId="2823-33a9-a62b-e29a" type="rule"/>
+        <infoLink id="ba2d-11b3-bb49-15df" name="Loyal She Began; Thus She Remains" hidden="false" targetId="4e23-608b-4365-8b65" type="rule"/>
+        <infoLink id="9629-bfdc-fc56-2978" name="Vulnerable Stern" hidden="false" targetId="de5d-516f-4490-71dd" type="rule"/>
+        <infoLink id="69e4-16b0-8c59-ebba" name="Command Codes" hidden="false" targetId="1c64-d581-925a-6659" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="777c-3d08-9a56-ed6b" name="New CategoryLink" hidden="false" targetId="fef3-1842-580c-4bef" primary="true"/>
+        <categoryLink id="25cc-5bfd-ba08-5513" name="Crown" hidden="false" targetId="9512-6963-5c9a-e15f" primary="false"/>
+        <categoryLink id="d0d3-881d-bf7b-779d" name="High Guardian" hidden="false" targetId="0092-ac10-aa13-e6bd" primary="false"/>
+        <categoryLink id="78c7-e79f-5444-b88b" name="Camelot Class" hidden="false" targetId="a6ac-3d74-b227-9660" primary="false"/>
+        <categoryLink id="fddc-d8c6-31dc-8747" name="Canadian" hidden="false" targetId="d4a3-52d1-9941-7ffb" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="ad9b-172e-d442-6054" name="Main Weapon" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="29f1-2bd9-3844-95c1" type="min"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e215-a66a-668e-43a7" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="c1ec-b2c2-4954-75ca" name="Heavy Gun Battery" hidden="false" collective="false" import="true" targetId="90c9-59e3-935f-7a20" type="selectionEntry">
+              <modifiers>
+                <modifier type="add" field="category" value="db84-bb03-d026-c3a5"/>
+              </modifiers>
+            </entryLink>
+            <entryLink id="1514-7f2f-4c8f-e5dc" name="Heavy Gun Battery" hidden="false" collective="false" import="true" targetId="90c9-59e3-935f-7a20" type="selectionEntry">
+              <modifiers>
+                <modifier type="add" field="category" value="db84-bb03-d026-c3a5"/>
+              </modifiers>
+            </entryLink>
+            <entryLink id="5019-d428-ce2a-8528" name="Heavy Gun Battery" hidden="false" collective="false" import="true" targetId="90c9-59e3-935f-7a20" type="selectionEntry">
+              <modifiers>
+                <modifier type="add" field="category" value="f2af-2773-24ff-2e12"/>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="4181-80bd-ce25-25ad" name="Heavy Prow Ram" hidden="false" collective="false" import="true" targetId="3b69-5936-2ff8-bc08" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d854-5f97-8f49-a539" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2b48-5ebf-f1b1-2ba1" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="a401-8fab-1271-99b5" name="Heavy Broadside" hidden="false" collective="false" import="true" targetId="110e-749a-0199-27be" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5708-b45b-95a2-a124" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="395f-fb8d-6fac-7b85" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="1d89-bff7-e650-3aae" name="Heavy Torpedo Salvo " hidden="false" collective="false" import="true" targetId="18e7-2755-41be-00c0" type="selectionEntry">
+          <modifiers>
+            <modifier type="add" field="category" value="dbb4-72d5-bceb-70b3"/>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f255-8851-1642-0709" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c36f-1950-3706-5ca9" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="5d35-bfcd-27ef-4212" name="Guardian generator" hidden="false" collective="false" import="true" targetId="094a-09c2-c40f-72c2" type="selectionEntry">
+          <modifiers>
+            <modifier type="add" field="category" value="967e-22a1-ae69-7b4f"/>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="03f3-150e-424b-3291" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="219a-7b2f-3eaf-e515" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="360.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8ad0-2f74-2bf1-35ea" name="Grail" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="add" field="category" value="d4a3-52d1-9941-7ffb">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f771-8c4b-877d-735f" type="instanceOf"/>
+          </conditions>
+        </modifier>
+        <modifier type="add" field="category" value="b20c-c6ec-bdc4-faed">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f522-023c-74a9-5412" type="instanceOf"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="remove" field="category" value="fffb-149d-6db1-4439">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f522-023c-74a9-5412" type="instanceOf"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f771-8c4b-877d-735f" type="instanceOf"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a6f5-89b9-de36-1b49" type="min"/>
+        <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0015-2c08-5167-a4be" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="adec-9e6c-bf9d-2197" name="Grail" hidden="false" targetId="3218-4158-8105-9080" type="profile"/>
+        <infoLink id="fcbc-7b2f-b3d1-30e7" name="Forward Deployment" hidden="false" targetId="e8f8-a4d2-d40c-1467" type="rule"/>
+        <infoLink id="702e-adb5-ccbf-2dd0" name="Keep Calm and Carry On" hidden="false" targetId="592e-f786-82c0-385e" type="rule"/>
+        <infoLink id="b258-3d25-e8bc-c2a6" name="Linear Dash" hidden="false" targetId="db6c-61a0-22a6-0d7a" type="rule"/>
+        <infoLink id="053d-fcfc-49c9-1b87" name="Lionhearted Crew" hidden="false" targetId="20dc-3eb1-0ca3-5a54" type="rule"/>
+        <infoLink id="8238-3f63-3c4d-a296" name="Radar Relay" hidden="false" targetId="23b6-9bca-f41d-3c83" type="rule"/>
+        <infoLink id="2463-446b-7545-e4af" name="Royal Engineers" hidden="false" targetId="563e-1c6c-a525-6552" type="rule"/>
+        <infoLink id="6850-ac18-b01b-7b18" name="Auspicio Regina" hidden="false" targetId="f8e2-882b-f962-2997" type="rule"/>
+        <infoLink id="96f9-2b83-33c8-220d" name="East India Privateers" hidden="false" targetId="d665-7d25-9e6d-2fb7" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="c153-98c6-0af2-13d3" name="New CategoryLink" hidden="false" targetId="d216-bc05-71f1-0fb4" primary="true"/>
+        <categoryLink id="42b3-ccd9-7b05-60c2" name="Crown" hidden="false" targetId="9512-6963-5c9a-e15f" primary="false"/>
+        <categoryLink id="1119-be8c-9313-4514" name="British" hidden="false" targetId="fffb-149d-6db1-4439" primary="false"/>
+        <categoryLink id="905b-a83a-503e-9aa5" name="Fast Destroyer" hidden="false" targetId="5ff2-dbb6-8bd2-a160" primary="false"/>
+        <categoryLink id="bab1-b980-6a4b-809d" name="Grail Class" hidden="false" targetId="5098-82a2-6f80-b36a" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="59b5-142d-35f4-bae4" name="Batteries" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="450e-7eb2-1526-be87" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4c8f-b673-bf45-12da" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="801a-2a77-a619-9d56" name="Rocket Battery" hidden="false" collective="false" import="true" targetId="1420-4e0a-ca1d-6cb7" type="selectionEntry">
+              <modifiers>
+                <modifier type="add" field="category" value="db84-bb03-d026-c3a5"/>
+              </modifiers>
+            </entryLink>
+            <entryLink id="7f97-1f1c-13c3-0530" name="Rocket Battery" hidden="false" collective="false" import="true" targetId="1420-4e0a-ca1d-6cb7" type="selectionEntry">
+              <modifiers>
+                <modifier type="add" field="category" value="f2af-2773-24ff-2e12"/>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="5c03-38d1-648d-3f22" name="Broadside" hidden="false" collective="false" import="true" targetId="0600-8fa9-227d-91ba" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0e84-45a8-dd67-49ff" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4f70-f98b-071a-0617" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="2242-251d-e9ea-f6c5" name="Torpedo Salvo " hidden="false" collective="false" import="true" targetId="8ef1-9bd8-9674-29cd" type="selectionEntry">
+          <modifiers>
+            <modifier type="add" field="category" value="dbb4-72d5-bceb-70b3"/>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4098-b1ca-ea73-58b2" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c389-d9db-a94d-7223" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="45.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="94b8-bb98-431a-69be" name="Guinevere" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e63e-7641-04ce-5343" type="min"/>
+        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="92ff-8187-977b-d635" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="f124-55ec-dced-0b58" name="Guinevere" hidden="false" targetId="e405-c151-4415-ba97" type="profile"/>
+        <infoLink id="d679-adcd-4a7a-2d20" name="Keep Calm and Carry On" hidden="false" targetId="592e-f786-82c0-385e" type="rule"/>
+        <infoLink id="c86d-99b0-e09f-2c43" name="Lionhearted Crew" hidden="false" targetId="20dc-3eb1-0ca3-5a54" type="rule"/>
+        <infoLink id="f3b5-927b-64ee-16d4" name="Royal Engineers" hidden="false" targetId="563e-1c6c-a525-6552" type="rule"/>
+        <infoLink id="803b-9303-3a65-a402" name="Spotter" hidden="false" targetId="063a-3229-1f27-a3c2" type="rule"/>
+        <infoLink id="bf5c-4ad6-be63-b057" name="Unexpected Arrival" hidden="false" targetId="f4aa-042e-34e5-1938" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="f909-a53a-be99-3705" name="New CategoryLink" hidden="false" targetId="d216-bc05-71f1-0fb4" primary="true"/>
+        <categoryLink id="9bf4-93e0-a34a-6a4a" name="Submerged Unit" hidden="false" targetId="df3f-7b38-7940-f11e" primary="false"/>
+        <categoryLink id="f5af-fa56-285e-7148" name="Strike Submarine" hidden="false" targetId="eaca-b02c-43a7-0b54" primary="false"/>
+        <categoryLink id="828e-eaf0-620b-89e3" name="British" hidden="false" targetId="fffb-149d-6db1-4439" primary="false"/>
+        <categoryLink id="a71c-6a06-9786-9e4c" name="Crown" hidden="false" targetId="9512-6963-5c9a-e15f" primary="false"/>
+        <categoryLink id="5c31-b2b4-8653-ffb5" name="Guinevere Class" hidden="false" targetId="6c4d-9a88-9e9d-ed5f" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="0f9e-0866-3678-8a9f" name="Torpedo Salvo " hidden="false" collective="false" import="true" targetId="8ef1-9bd8-9674-29cd" type="selectionEntry">
+          <modifiers>
+            <modifier type="add" field="category" value="dbb4-72d5-bceb-70b3"/>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="bcfb-0a65-dbcb-c7cf" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b182-9cac-bae1-a3dd" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="268e-c22a-28d5-41ea" name="Cymbeline Missile Silo" hidden="false" collective="false" import="true" targetId="7dba-1c8d-ba19-7ccb" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9517-f764-98f9-b0ec" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a2d5-733a-1a57-ecbb" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="80.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7dba-1c8d-ba19-7ccb" name="Cymbeline Missile Silo" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="add" field="category" value="a4f6-2208-db34-4879"/>
+      </modifiers>
+      <infoLinks>
+        <infoLink id="0aaa-ecf9-cdf1-0d34" name="Cymbeline Missile Silo" hidden="false" targetId="188b-dba1-865c-23c9" type="profile"/>
+        <infoLink id="1cf0-dacf-0a16-54f1" name="Aerial" hidden="false" targetId="c475-4c4f-de22-9080" type="rule"/>
+        <infoLink id="8472-66ba-99c2-296b" name="Blast" hidden="false" targetId="89d8-2e21-11be-005d" type="rule"/>
+        <infoLink id="a49a-7bca-3be6-f376" name="High Velocity" hidden="false" targetId="5b8e-71d1-641d-73f9" type="rule"/>
+        <infoLink id="e11a-3123-585c-23f7" name="Limited" hidden="false" targetId="3bd4-7e14-0aa2-97db" type="rule"/>
+      </infoLinks>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedRules>
@@ -7496,7 +8681,7 @@ A single maximum sized Hotspur Support Carrier Unit may be upgraded for +20pts t
       <description>This Unit treats the effects of Chaos and Disarray as the effects of Emergency instead. The Units still counts has having the Chaos and Disarray Level so receiving a further Disorder Condition causes damage as normal.</description>
     </rule>
     <rule id="563e-1c6c-a525-6552" name="Royal Engineers" publicationId="dbca-8d57-b848-457e" hidden="false">
-      <description>This Unit counts Blank results as a Counter when making Repair Rolls.</description>
+      <description>This Unit counts Blank results as a Counter when making Repair Rolls. Furthermore, Actions with the Gunnery Quality gain +1 to their Lead Action Dice value when two or more weapons Support their Action Dice Pool. </description>
     </rule>
     <rule id="dac4-8eec-5ae6-9a96" name="Tail Gunners" publicationId="dbca-8d57-b848-457e" hidden="false">
       <description>SRS Tokens launched by Units with this rule may re-roll blanks when making Interceptions.</description>
@@ -7514,7 +8699,7 @@ A single maximum sized Hotspur Support Carrier Unit may be upgraded for +20pts t
       <description>SRS Tokens launched by Units with this rule are called Number One Squadron SRS Tokens. Any Attack Run including one or more Number One Squadron SRS Tokens may re-roll Blank Results on all Attack Run dice, even those provided by other friendly SRS or Special SRS Tokens, provided that the Number One Squadron SRS Tokens are the majority of friendly SRS or Special SRS Tokens in the Attack Run. Number One Squadron SRS Tokens can only be intercepted if there are no other SRS Tokens remaining to make an Attack Run on the same target.�</description>
     </rule>
     <rule id="4e80-1d7c-8f72-bb13" name="McCurdy Shield Projector" publicationId="dbca-8d57-b848-457e" hidden="false">
-      <description>This Unit is equipped with a special type of projector that allows it to extend its Shields to another vessel in range. This Unit and any Friendly Models within 5” of this Unit counts as being equipped with a Shield Generator.</description>
+      <description>Any Model with a Guardian Generator within 7” of one or more Models with this rule gains +1 to their Guardian Point value. A Model cannot benefit from this bonus multiple times</description>
     </rule>
     <rule id="6158-153b-d320-6060" name="Auxiliary Mine Layer" publicationId="dbca-8d57-b848-457e" hidden="false">
       <description>After Deployment, the controlling Player of this Unit may place a single Minefield Marker anywhere in the Play Area provided that it is at least 10” from any Deployment Zone and 5” of a Model. The First Model that touches a Minefield Marker suffers a hit with an Attack Dice Pool equal to five times their Mass. Remove the Minefield Marker after resolving the hit. Minefields cannot be triggered or affect Aerial Units.</description>
@@ -7584,7 +8769,7 @@ in addition to those given by the Model’s Mass.</description>
       <description>This Unit re-rolls blanks when making Jury-Rigged Repairs.</description>
     </rule>
     <rule id="9f0c-1181-e9a6-84a7" name="Defiant Tail Gunners" publicationId="dbca-8d57-b848-457e" hidden="false">
-      <description>This rule applies to all SRS Tokens launched by this Unit. You may re-roll Interception Action Dice Pool blank results provided the number of SRS Tokens contributing to the Interception is at least equal to the Mass of the target they are defending.</description>
+      <description>This rule applies to all SRS Tokens launched by this Unit. You may re-roll Interception Action Dice Pool blank results.</description>
     </rule>
     <rule id="25ea-b812-952e-dd7d" name="Guardian Surge" publicationId="dbca-8d57-b848-457e" hidden="false">
       <description>As a Valour Effect this Unit may double its contribution to the Guardian Points Pool The opponent may always attempt to Cancel this Valour Effect and does not require an additional rule to be able to do so.</description>
@@ -7609,6 +8794,18 @@ Action Die. On an Exploding Hit, do not discard the Victory &amp; Valour card an
         </modifier>
       </modifiers>
       <description>Models in this Unit may re-roll Blank dice results in any Action Dice Pool. The East India Privateers Rule only applies during each Round where the Force this Unit is part of had more Victory Points than their opponents at the most recent Check for Victory Step.</description>
+    </rule>
+    <rule id="de5d-516f-4490-71dd" name="Vulnerable Stern" hidden="false">
+      <description>Shooting Attacks against this Model, that originate in this Model’s Aft Fire Arc, gain the Devastating Quality. After any other effects or Critical Damage Markers have been applied from that Attack, if at least one Point of Damage has been caused by that Attack, inflict a Navigation Lock Critical Damage Marker if the target does not already have one. Attacks with the Blast, Bomb or Magnetic Qualities ignore this rule.</description>
+    </rule>
+    <rule id="799f-1288-d4b1-74ed" name="Majestic Gun Battery" hidden="false">
+      <description>This weapon gains the Extreme Range Quality only when attacking targets at Long Range or further.</description>
+    </rule>
+    <rule id="d7bf-054e-82a4-bec0" name="Torpedo Master-Calculator" hidden="false">
+      <description>A Single Attack with the Torpedo Quality by this Unit each Activation recieves +2 Action Dice and gains the Devastasting Quality.</description>
+    </rule>
+    <rule id="db2e-417f-31d3-8909" name="Unexpected Air Strike" hidden="false">
+      <description>Instead of being deployed as normal for the Encounter, this Unit may instead be held in Reserve (see Operations for details). Roll to arrive by Reserves as normal, however, from the start of Round two, or the start of any subsequent Rounds, this Unit may automatically arrive from Reserves. When it arrives from Reserves the Unit is placed at any point in the Play Area that is at least 5&quot; from the nearest terrain feature. No Model in the Unit can be deployed touching another Model. On the Round it enters play with this rule, this Unit immediately launches a number of SRS Tokens up to its Capacity value against any Enemy Unit in the Play Area rather than the usual range.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
@@ -8061,6 +9258,50 @@ Action Die. On an Exploding Hit, do not discard the Victory &amp; Valour card an
         <characteristic name="Closing" typeId="d025-b048-0c22-fad5">5(2) / 4(1)</characteristic>
         <characteristic name="Long" typeId="06b8-7f5e-e2df-751a">5(2) / 4(1)</characteristic>
         <characteristic name="Quality" typeId="faa3-d69c-5156-2acf">Submerged, Torpedo, Extreme Range </characteristic>
+      </characteristics>
+    </profile>
+    <profile id="188b-dba1-865c-23c9" name="Cymbeline Missile Silo" hidden="false" typeId="6c9b-5228-c790-9c90" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Arc" typeId="8739-aae9-7e50-c8d0">-</characteristic>
+        <characteristic name="Point Blank" typeId="4209-eb47-9807-b834">- / -</characteristic>
+        <characteristic name="Closing" typeId="d025-b048-0c22-fad5">10(6) / 7(4)</characteristic>
+        <characteristic name="Long" typeId="06b8-7f5e-e2df-751a">10(6) / 7(4)</characteristic>
+        <characteristic name="Quality" typeId="faa3-d69c-5156-2acf">Aerial, Blast, High Velocity, Limited </characteristic>
+      </characteristics>
+    </profile>
+    <profile id="89b0-511f-6c55-7dce" name="Majestic Gun Battery" hidden="false" typeId="6c9b-5228-c790-9c90" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Arc" typeId="8739-aae9-7e50-c8d0">-</characteristic>
+        <characteristic name="Point Blank" typeId="4209-eb47-9807-b834">5(3) / 4(1)</characteristic>
+        <characteristic name="Closing" typeId="d025-b048-0c22-fad5">9(4) / 6(3)</characteristic>
+        <characteristic name="Long" typeId="06b8-7f5e-e2df-751a">9(5) / 7(4)</characteristic>
+        <characteristic name="Quality" typeId="faa3-d69c-5156-2acf">Gunnery, Extreme Range</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="3218-4158-8105-9080" name="Grail" hidden="false" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model    ">
+      <characteristics>
+        <characteristic name="Mass" typeId="dbde-866b-70b0-d5e9">1</characteristic>
+        <characteristic name="Speed" typeId="9e4a-2ba1-f396-74b9">11</characteristic>
+        <characteristic name="Turn Limit" typeId="b9f6-2f65-e8c8-b906">8</characteristic>
+        <characteristic name="Armour" typeId="29a3-02bb-e7f3-0ddb">5</characteristic>
+        <characteristic name="Citadel" typeId="c141-3bcf-41f5-6c24">11</characteristic>
+        <characteristic name="ADV" typeId="6428-9828-bb2e-f923">3</characteristic>
+        <characteristic name="SDV" typeId="b001-8ebf-b7fe-74da">3</characteristic>
+        <characteristic name="Fray" typeId="4c54-804a-8993-7325">5</characteristic>
+        <characteristic name="Hull" typeId="ff43-364b-8da9-bce9">3</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="e405-c151-4415-ba97" name="Guinevere" hidden="false" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model    ">
+      <characteristics>
+        <characteristic name="Mass" typeId="dbde-866b-70b0-d5e9">2/2</characteristic>
+        <characteristic name="Speed" typeId="9e4a-2ba1-f396-74b9">7/5</characteristic>
+        <characteristic name="Turn Limit" typeId="b9f6-2f65-e8c8-b906">5/4</characteristic>
+        <characteristic name="Armour" typeId="29a3-02bb-e7f3-0ddb">5/5</characteristic>
+        <characteristic name="Citadel" typeId="c141-3bcf-41f5-6c24">10/8</characteristic>
+        <characteristic name="ADV" typeId="6428-9828-bb2e-f923">1/0</characteristic>
+        <characteristic name="SDV" typeId="b001-8ebf-b7fe-74da">4/3</characteristic>
+        <characteristic name="Fray" typeId="4c54-804a-8993-7325">6/5</characteristic>
+        <characteristic name="Hull" typeId="ff43-364b-8da9-bce9">4/2</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
